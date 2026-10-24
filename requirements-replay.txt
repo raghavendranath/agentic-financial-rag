@@ -1,2 +1,5 @@
 numpy==2.5.4
 faiss-cpu==1.15.1
+mpmath==1.3.0
+sympy==1.14.0
+tqdm==4.70.1
