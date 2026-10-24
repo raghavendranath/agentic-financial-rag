@@ -1,0 +1,37 @@
+Camera-ready results: final benchmark records
+
+Method                      FinanceBench literal     FinQA numerical      ConvFinQA all turns
+DeepSeek single-shot        6/50 = 0.120              28/48 = 0.583333     132/178 = 0.741573
+DeepSeek full agentic       10/50 = 0.200              35/48 = 0.729167     134/178 = 0.752809
+Qwen3-32B single-shot       8/50 = 0.160              28/48 = 0.583333     114/178 = 0.640449
+T5-small exploratory       not evaluated             12/48 = 0.250       not evaluated
+
+FinanceBench component controls (same 50 questions and exact first drafts):
+Method                        Literal matches      Mean answer passes   Attributed calls  Invalid finals
+single-shot                    6/50 = 0.120         1.00                  50                6
+generic three-pass revision     9/50 = 0.180         3.00                 150                5
+validated fixed evidence        9/50 = 0.180         1.96                 231                1
+full retrieval/refinement      10/50 = 0.200         1.88                 240                1
+
+Both fixed-evidence multi-pass policies match exactly the same nine references.
+The full policy adds Adobe question 04735. This is not a compute/stopping-matched comparison.
+Calls include generation and checking, with initial responses reused across arms.
+
+Paired full-minus-single differences, 95% filing-cluster bootstrap (2000 draws, seed 18):
+FinQA numerical: +0.145833 [0.0625, 0.25], seven corrected, zero reverse changes.
+ConvFinQA all turns: +0.011236 [-0.009901, 0.035294], three corrected, one reverse change.
+FinanceBench literal diagnostic: +0.08 [0.018182, 0.170213], four mismatch-to-match changes.
+Full-minus-generic-revision FinanceBench: +0.02 [0, 0.068182].
+
+FinQA including two Boolean questions: DeepSeek single 30/50; agentic 37/50; Qwen 30/50; T5-small 12/50.
+ConvFinQA first up to three available turns: single 103/133; agentic 105/133.
+ConvFinQA fully correct conversations: single 24/50; agentic 26/50.
+
+Cautions:
+- FinanceBench uses literal reference agreement, not human complete-answer correctness or faithfulness.
+- 34/50 FinanceBench references contain prose; the whole-scalar numeric-reference subset has only 16 items.
+- FinanceBench questions were inspected during development/audits; this is a post-hoc evaluation.
+- Independent human assessment is future work. Internal acceptance is not financial truth.
+- The preserved FinQA/ConvFinQA adapters differ from the final FinanceBench adapter; compare arms within a benchmark.
+- T5-small has different retrieval/context and fixed small-scale training, not a recovered historical T5 baseline.
+- Current documented model/sample/scorer results supersede the earlier experimental summary.

@@ -1,0 +1,20 @@
+{
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "provider": "inference-net/fp8",
+  "embedding_model": "BAAI/bge-m3",
+  "chunk_tokens": 1500,
+  "overlap_tokens": 200,
+  "top_k": 10,
+  "max_attempts": 3,
+  "max_tokens": 4096,
+  "temperature": 0,
+  "seed": 18,
+  "budget_usd": 20.0,
+  "fixed_retrieval_ablation": true,
+  "reasoning": {
+    "enabled": false
+  },
+  "description": "Three-benchmark extension; DeepSeek single-shot vs full loop vs fixed retrieval on FinanceBench, end-to-end own-history single-shot vs full loop on ConvFinQA. Frozen separately from v3 FinQA.",
+  "request_interval_seconds": 1.5,
+  "paired_v2_baseline": false
+}

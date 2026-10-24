@@ -1,0 +1,195 @@
+{
+  "benchmark": "financebench",
+  "split": "evaluation",
+  "units": 50,
+  "items": 50,
+  "arms": {
+    "agentic": {
+      "items": 50,
+      "correct": 10,
+      "normalized_exact_match": 0.2,
+      "exact_match_95ci": [
+        0.09090909090909091,
+        0.3404255319148936
+      ],
+      "numerical_items": 16,
+      "numerical_correct": 10,
+      "scalar_numerical_f1": 0.625,
+      "numerical_f1_95ci": [
+        0.375,
+        0.875
+      ],
+      "mean_attempts": 1.88,
+      "unknown_or_malformed": 4,
+      "output_status_counts": {
+        "validated": 33,
+        "invalid": 1,
+        "abstained": 3,
+        "unvalidated": 13
+      }
+    },
+    "fixed_retrieval": {
+      "items": 50,
+      "correct": 9,
+      "normalized_exact_match": 0.18,
+      "exact_match_95ci": [
+        0.07547169811320754,
+        0.3181818181818182
+      ],
+      "numerical_items": 16,
+      "numerical_correct": 9,
+      "scalar_numerical_f1": 0.5625,
+      "numerical_f1_95ci": [
+        0.3125,
+        0.8125
+      ],
+      "mean_attempts": 1.96,
+      "unknown_or_malformed": 9,
+      "output_status_counts": {
+        "validated": 28,
+        "invalid": 1,
+        "abstained": 8,
+        "unvalidated": 13
+      }
+    },
+    "single_shot": {
+      "items": 50,
+      "correct": 6,
+      "normalized_exact_match": 0.12,
+      "exact_match_95ci": [
+        0.038461538461538464,
+        0.23404255319148937
+      ],
+      "numerical_items": 16,
+      "numerical_correct": 6,
+      "scalar_numerical_f1": 0.375,
+      "numerical_f1_95ci": [
+        0.125,
+        0.625
+      ],
+      "mean_attempts": 1.0,
+      "unknown_or_malformed": 15,
+      "output_status_counts": {
+        "unvalidated": 35,
+        "invalid": 6,
+        "abstained": 9
+      }
+    }
+  },
+  "end_to_end_vs_single_shot": {
+    "agentic": {
+      "difference": 0.08,
+      "95ci_filing_cluster_bootstrap": [
+        0.01818181818181818,
+        0.1702127659574468
+      ],
+      "wrong_to_right": 4,
+      "right_to_wrong": 0
+    },
+    "fixed_retrieval": {
+      "difference": 0.06,
+      "95ci_filing_cluster_bootstrap": [
+        0.0,
+        0.14285714285714285
+      ],
+      "wrong_to_right": 3,
+      "right_to_wrong": 0
+    }
+  },
+  "metric_role": "secondary diagnostic normalized reference agreement; not human-assessed FinanceBench accuracy",
+  "financebench_human_assessment_completed": false,
+  "within_agentic_turn_initial_to_final": {
+    "difference": 0.08,
+    "95ci_filing_cluster_bootstrap": [
+      0.01818181818181818,
+      0.1702127659574468
+    ],
+    "wrong_to_right": 4,
+    "right_to_wrong": 0
+  },
+  "validator_first_attempt_reference_evaluation": {
+    "reference_metric": "normalized exact match; paraphrases may count as disagreements",
+    "true_reject_reference_mismatch": 26,
+    "false_reject_reference_match": 0,
+    "true_accept_reference_match": 6,
+    "false_accept_reference_mismatch": 18,
+    "detection_precision": 1.0,
+    "detection_recall": 0.5909090909090909,
+    "false_acceptance_rate_among_reference_mismatches": 0.4090909090909091,
+    "false_rejection_rate_among_reference_matches": 0.0,
+    "first_attempt_acceptance_consistency_score": 0.48
+  },
+  "loop_statistics": {
+    "agentic": {
+      "refinement_steps": 44,
+      "unchanged_evidence_sets": 30,
+      "repeated_value_and_program": 22
+    },
+    "fixed_retrieval": {
+      "refinement_steps": 48,
+      "unchanged_evidence_sets": 48,
+      "repeated_value_and_program": 32
+    },
+    "single_shot": {
+      "refinement_steps": 0,
+      "unchanged_evidence_sets": 0,
+      "repeated_value_and_program": 0
+    }
+  },
+  "official_arithmetic_program_checks": 157,
+  "official_source_audit_program_checks": 74,
+  "integrity": {
+    "status": "passed",
+    "units": 50,
+    "attempt_records": 242,
+    "unique_calls": 275,
+    "reported_cost_usd": 0.298387532,
+    "pending_reservations": 0,
+    "offline_replayed_all_requests_histories_and_decisions": true,
+    "labels_used_in_replay": false,
+    "source_audit_receipts_included": true,
+    "output_statuses_checked": true,
+    "index_vectors_recomputed": false,
+    "retrieval_records_checked_against_frozen_corpus": true,
+    "frozen": {
+      "source_hash": "f3694f733b73f1b876c153e511153b34067f5799b4807f3e2f384e0803eda844",
+      "config": {
+        "model": "deepseek/deepseek-v4.1-flash-1017",
+        "provider": "inference-net/fp8",
+        "embedding_model": "BAAI/bge-m3",
+        "chunk_tokens": 1500,
+        "overlap_tokens": 200,
+        "top_k": 10,
+        "max_attempts": 3,
+        "max_tokens": 4096,
+        "temperature": 0,
+        "seed": 18,
+        "budget_usd": 20.0,
+        "fixed_retrieval_ablation": true,
+        "reasoning": {
+          "enabled": false
+        },
+        "description": "FinanceBench v4: typed unit consistency, source-first same-model validation plus comparison, focused missing-fact retrieval; maximum three attempts. New post-hoc engineering protocol; no CL code or results.",
+        "request_interval_seconds": 1.5,
+        "paired_v2_baseline": false
+      },
+      "data_hash": "40b3c52a33e202b4ce1c7af3d5f87a401a18fd1e6dca3f17c36eb4becbad415b",
+      "index_hash": "65a0ee3d3d49a772d53d001ffc81efe107618ea6430196be9986ce39f627fb2a",
+      "benchmark": "financebench",
+      "runner_hash": "709376abe571f0195b42d42e39e6b5c8e6174e88bf9c52082b061e78029cd447",
+      "protocol_hash": "c6ab4a385a5446281037426f33923f91725ccf88f9a47f2332ca8d3dd1e1c15b"
+    }
+  },
+  "billing": {
+    "unique_calls": 275,
+    "reported_cost_usd": 0.298387532
+  },
+  "limitations": [
+    "A new implementation evaluation, not recovery of the lost historical run. Read the frozen protocol for sample exposure and development/evaluation separation.",
+    "No benchmark label edits, reference-based tolerances, sign/factor-100 forgiveness or best-of-attempt selection. Final declared values are preserved; raw executed and display calculations are recorded separately.",
+    "Same-model validation can accept wrong financial interpretations; no independent human grounding audit.",
+    "Confidence intervals resample filings (seed 18, 2000 draws).",
+    "FinanceBench normalized exact match uses whole-scalar 5-decimal comparison or case/Unicode/whitespace normalization and terminal punctuation removal; semantic judgment is separate.",
+    "ConvFinQA uses generated history per arm; end-to-end differences combine current-turn refinement with effects of earlier generated answers."
+  ]
+}

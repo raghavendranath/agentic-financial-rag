@@ -1,0 +1,27 @@
+{
+  "source_hash": "d18cb8b56f7f26464c930ef1320daabec4a0d9fda387ba09672ae2daa38df46d",
+  "prompt_hash": "ac7e63069e182742dac9de83cd0bdf08bde2f68edf93adcf14ff08fc9b791a23",
+  "baseline_v2_source_hash": "e8a5d488c80600e5ad54a70adb6f4215cbecf927e7242b6b4c5ab75628802a16",
+  "config": {
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "provider": "inference-net/fp8",
+    "embedding_model": "BAAI/bge-m3",
+    "chunk_tokens": 1500,
+    "overlap_tokens": 200,
+    "top_k": 10,
+    "max_attempts": 3,
+    "max_tokens": 4096,
+    "temperature": 0,
+    "seed": 18,
+    "budget_usd": 20.0,
+    "fixed_retrieval_ablation": false,
+    "reasoning": {
+      "enabled": false
+    },
+    "description": "Bounded v3 validation/refinement audit: same generator, model/provider, retrieval and max3 attempts; paired frozen-v2 comparator shares the identical initial answer. Development first, then one new holdout.",
+    "request_interval_seconds": 1.5,
+    "paired_v2_baseline": true
+  },
+  "data_hash": "4fad37301615aee7ff5f2dbed520aeab5ff68b57f4f2e7990d2cbf2df2bbe0d4",
+  "index_hash": "348c99408f28ea624066df018de847921764c9cbe84d29a2fa185c99bb6c55db"
+}

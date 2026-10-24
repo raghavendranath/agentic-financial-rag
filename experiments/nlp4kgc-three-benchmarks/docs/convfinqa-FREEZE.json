@@ -1,0 +1,28 @@
+{
+  "source_hash": "adf405b98acb4ea8f43cc03e4b619e96c3f5e338d8d31fff7ab455ce8982226d",
+  "config": {
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "provider": "inference-net/fp8",
+    "embedding_model": "BAAI/bge-m3",
+    "chunk_tokens": 1500,
+    "overlap_tokens": 200,
+    "top_k": 10,
+    "max_attempts": 3,
+    "max_tokens": 4096,
+    "temperature": 0,
+    "seed": 18,
+    "budget_usd": 20.0,
+    "fixed_retrieval_ablation": true,
+    "reasoning": {
+      "enabled": false
+    },
+    "description": "Three-benchmark extension; DeepSeek single-shot vs full loop vs fixed retrieval on FinanceBench, end-to-end own-history single-shot vs full loop on ConvFinQA. Frozen separately from v3 FinQA.",
+    "request_interval_seconds": 1.5,
+    "paired_v2_baseline": false
+  },
+  "data_hash": "77786af1de7092d7a1d0441982d224e275bf0c42853108bed0d966b517f2cb69",
+  "index_hash": "006a3d92524458bd0a9135284a243f5704e1ab980b8594fc5a6ecc6431f95fc1",
+  "benchmark": "convfinqa",
+  "runner_hash": "a6f609e272523adea501afe7a5acb22e26abef21c3f998aa9c6d40a97656689e",
+  "protocol_hash": "e7a2f7dbd9e73d12229bfb031d59c6c6a228cb580054bb8fedf1fbb6e55d3e6f"
+}

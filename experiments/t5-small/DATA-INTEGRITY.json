@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "training_examples_checked": 4988,
+  "development": 100,
+  "evaluation": 50,
+  "disjoint_filings": true,
+  "inputs_ignore_answer_program_gold_inds_and_model_input": true,
+  "training_targets_from_official_train_only": true,
+  "protocol_sha256": "2d723ea27c79d78a37c95ad2cfe7d8c2b0964b4b4d80906cf9eefec3bd8a2b31"
+}

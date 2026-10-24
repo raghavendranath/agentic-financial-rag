@@ -1,0 +1,352 @@
+[
+  {
+    "id": "STT/2014/page_54.pdf-2",
+    "filename": "STT/2014/page_54.pdf",
+    "raw_program": "subtract(110, 100), divide(#0, 100)",
+    "input_hash": "57e034dfc6d208ca7e5affb49155b34c7a215fee94b61210d4993a0e732d2207",
+    "truncated_input": false
+  },
+  {
+    "id": "BLK/2014/page_120.pdf-2",
+    "filename": "BLK/2014/page_120.pdf",
+    "raw_program": "divide(6.25, 6.25%)",
+    "input_hash": "bc2eded19266bbc0bd7d9450b090742737224118152b86977d939e2786f0637e",
+    "truncated_input": false
+  },
+  {
+    "id": "K/2006/page_52.pdf-2",
+    "filename": "K/2006/page_52.pdf",
+    "raw_program": "add(975.4, 769.1), add(#0, 950.4), divide(#1, const_3)",
+    "input_hash": "e3c0581c6887b8bf4a7cbffe95bf67d68caa3c8336482a536aed6caa88f83169",
+    "truncated_input": false
+  },
+  {
+    "id": "VNO/2014/page_57.pdf-1",
+    "filename": "VNO/2014/page_57.pdf",
+    "raw_program": "subtract(113, const_100), divide(#0, const_100)",
+    "input_hash": "265720230e1c7d255b5ee43094fe642830315a48c83cbaf345631262439a2838",
+    "truncated_input": false
+  },
+  {
+    "id": "ALXN/2016/page_153.pdf-2",
+    "filename": "ALXN/2016/page_153.pdf",
+    "raw_program": "divide(3081, 3081)",
+    "input_hash": "e5151f7fb8ba748b22e2655ab0612e0bf7c64466df3de8446c51db7aa447a824",
+    "truncated_input": false
+  },
+  {
+    "id": "DVN/2018/page_35.pdf-4",
+    "filename": "DVN/2018/page_35.pdf",
+    "raw_program": "subtract(2.6, 2.2), divide(#0, 2.2)",
+    "input_hash": "9d6a44679086fcab0579645645b37006fcb20420554f1807ab7aa25e217ecd98",
+    "truncated_input": false
+  },
+  {
+    "id": "ABMD/2005/page_29.pdf-2",
+    "filename": "ABMD/2005/page_29.pdf",
+    "raw_program": "subtract(44000, 19000), divide(#0, 19000)",
+    "input_hash": "a9c23c898910fb6aefbd50fdcdd5c1c812cc72e9fc539252535cfaa764ad35e6",
+    "truncated_input": false
+  },
+  {
+    "id": "HIG/2011/page_53.pdf-2",
+    "filename": "HIG/2011/page_53.pdf",
+    "raw_program": "add(367, 367), add(#0, 367), add(#1, const_3), divide(#1, const_2)",
+    "input_hash": "19132248c934b4beb121ce4a8723d13dad1573889fb64f56987a1f9adcace6c5",
+    "truncated_input": false
+  },
+  {
+    "id": "UNP/2018/page_74.pdf-4",
+    "filename": "UNP/2018/page_74.pdf",
+    "raw_program": "divide(2446, 878)",
+    "input_hash": "d0858bbc0d8f618f5fc4721b8d1ec7eb1a222d4734798d7d0ee13f0c70db3762",
+    "truncated_input": false
+  },
+  {
+    "id": "MO/2016/page_19.pdf-1",
+    "filename": "MO/2016/page_19.pdf",
+    "raw_program": "greater(193.69, const_100), greater(#0, const_100)",
+    "input_hash": "72423774502e66f0c6339ab4e3dbee900c82c626877512add8ba089767d798f2",
+    "truncated_input": false
+  },
+  {
+    "id": "IPG/2017/page_92.pdf-1",
+    "filename": "IPG/2017/page_92.pdf",
+    "raw_program": "subtract(41.9, 24.4), divide(#0, 24.4)",
+    "input_hash": "d4ace074708eac371872301f45d48082394021247a702fa4a5e8262be182dd20",
+    "truncated_input": false
+  },
+  {
+    "id": "IPG/2008/page_72.pdf-4",
+    "filename": "IPG/2008/page_72.pdf",
+    "raw_program": "divide(131.8, 148.8)",
+    "input_hash": "85babad62aa18ea8a77549bde2e6da9d2072072ddf1a56206e33f57cc24a957f",
+    "truncated_input": false
+  },
+  {
+    "id": "UPS/2012/page_32.pdf-4",
+    "filename": "UPS/2012/page_32.pdf",
+    "raw_program": "subtract(113.07, const_100), divide(#0, const_100)",
+    "input_hash": "988695b1365a97893cc8a9ca1fbdaa126cc7bf7308dd86762ce6305080206001",
+    "truncated_input": false
+  },
+  {
+    "id": "PPG/2018/page_85.pdf-4",
+    "filename": "PPG/2018/page_85.pdf",
+    "raw_program": "divide(151, 235)",
+    "input_hash": "0a54bc22debe0eb93d9e0a4c11177dde0587752b4a37ba604f39f10946829260",
+    "truncated_input": false
+  },
+  {
+    "id": "GPN/2010/page_87.pdf-3",
+    "filename": "GPN/2010/page_87.pdf",
+    "raw_program": "divide(18.1, 14.6)",
+    "input_hash": "55e2c614de380c3d84ff663bb056eb075bed1e8fff4dab4f6c2f1a7ddf099192",
+    "truncated_input": false
+  },
+  {
+    "id": "BLK/2012/page_33.pdf-2",
+    "filename": "BLK/2012/page_33.pdf",
+    "raw_program": "subtract(4517, 58507), divide(#0, 58507)",
+    "input_hash": "3b39b8e648c47e4af772103d1151c177564b936524ef46b0b5adb69a9f7b5fa2",
+    "truncated_input": true
+  },
+  {
+    "id": "MO/2014/page_62.pdf-1",
+    "filename": "MO/2014/page_62.pdf",
+    "raw_program": "subtract(5058, 4523), divide(#0, 4523)",
+    "input_hash": "f76e275514ad0b5cf731c027421ecb1ac921bc1f336d6c68ad55786be8d90f41",
+    "truncated_input": false
+  },
+  {
+    "id": "AAL/2013/page_18.pdf-2",
+    "filename": "AAL/2013/page_18.pdf",
+    "raw_program": "subtract(2.91, 2.91), divide(#0, 2.21)",
+    "input_hash": "9051a62bf9b0e40d8395cdfff1e9934d0350140a930ceb3a6fde0138109ffc09",
+    "truncated_input": false
+  },
+  {
+    "id": "JKHY/2017/page_26.pdf-1",
+    "filename": "JKHY/2017/page_26.pdf",
+    "raw_program": "subtract(167.87, const_100), divide(#0, const_100)",
+    "input_hash": "84b8ec8e5e59949530b5870cc0f971915c15b765e331e4814b44d60db1fe771a",
+    "truncated_input": true
+  },
+  {
+    "id": "HII/2015/page_121.pdf-2",
+    "filename": "HII/2015/page_121.pdf",
+    "raw_program": "divide(90, 96)",
+    "input_hash": "0057cafe627df625ce245ff28f3e9881904636ea01c645bbd10b71c48a2f2e7f",
+    "truncated_input": false
+  },
+  {
+    "id": "GIS/2018/page_110.pdf-1",
+    "filename": "GIS/2018/page_110.pdf",
+    "raw_program": "multiply(540.8, 167.3)",
+    "input_hash": "21bbab1f09eb9843cdf4ea4c06aa8321bab09a9e2d422fa2300e5483129be16f",
+    "truncated_input": false
+  },
+  {
+    "id": "V/2014/page_126.pdf-2",
+    "filename": "V/2014/page_126.pdf",
+    "raw_program": "subtract(44.11, 39.03), divide(#0, 39.03)",
+    "input_hash": "8a38d723cf3159f9659b8341ff4acd82f9c5ab8d919d90811e18ec1842b7557c",
+    "truncated_input": false
+  },
+  {
+    "id": "CE/2016/page_19.pdf-1",
+    "filename": "CE/2016/page_19.pdf",
+    "raw_program": "add(78, 119), add(86, #0), add(#1, const_3), add(#1, const_3), add(#1, const_2), add(#1, const_2), add(#1, const_2), add(#1, const_2), add(#1, const_2), add(#1, #3)",
+    "input_hash": "c51409acda7222ca7c34d54c9277284941af6cbb2976f31b55a37fc2e40efabf",
+    "truncated_input": false
+  },
+  {
+    "id": "JPM/2015/page_82.pdf-2",
+    "filename": "JPM/2015/page_82.pdf",
+    "raw_program": "divide(43510, 95112)",
+    "input_hash": "92e527fd184a35af54a6b11f492cc7ff9d2c376f9e92272f2da218509d8521a6",
+    "truncated_input": false
+  },
+  {
+    "id": "MKTX/2004/page_99.pdf-4",
+    "filename": "MKTX/2004/page_99.pdf",
+    "raw_program": "add(.003,.003)",
+    "input_hash": "05c502e51a967a273e935363e07d8dfd2660d718874624560185bc1c374cda33",
+    "truncated_input": false
+  },
+  {
+    "id": "MMM/2013/page_75.pdf-2",
+    "filename": "MMM/2013/page_75.pdf",
+    "raw_program": "subtract(1.6, 1.2), divide(#0, 1.2)",
+    "input_hash": "05e73d60f19b089583d139b9d4e3129d5fa18d75f77ff677342bfb36aea15c36",
+    "truncated_input": false
+  },
+  {
+    "id": "ABMD/2006/page_43.pdf-2",
+    "filename": "ABMD/2006/page_43.pdf",
+    "raw_program": "divide(4819, 571)",
+    "input_hash": "66dd5e48f1310213d773f2c123d4d1a96894a28f06eb98b588cd61a4b8488cdc",
+    "truncated_input": false
+  },
+  {
+    "id": "MSI/2007/page_70.pdf-1",
+    "filename": "MSI/2007/page_70.pdf",
+    "raw_program": "add(21, 14), add(#0, const_3), divide(#1, const_2)",
+    "input_hash": "ae02c84f6818ef52cd43f056cbef8d4ab07b0d9a79b355b1250457b839be62fc",
+    "truncated_input": false
+  },
+  {
+    "id": "UNP/2016/page_52.pdf-1",
+    "filename": "UNP/2016/page_52.pdf",
+    "raw_program": "divide(26053, 32070)",
+    "input_hash": "f99f9fb54a71084b8427a07703573be4e60a60920332c915fe80cfad9ada51a0",
+    "truncated_input": false
+  },
+  {
+    "id": "RSG/2009/page_140.pdf-2",
+    "filename": "RSG/2009/page_140.pdf",
+    "raw_program": "subtract(3.79, 4.36), divide(#0, 4.69)",
+    "input_hash": "9f858049c8235a6ad48d40e6e9cbbdcf6394663069dd3860550e93e2182dfc8f",
+    "truncated_input": false
+  },
+  {
+    "id": "RSG/2013/page_123.pdf-1",
+    "filename": "RSG/2013/page_123.pdf",
+    "raw_program": "subtract(28.9, 27.8), divide(#0, 27.8)",
+    "input_hash": "6f615ebc7b16653b15bf5b6e22b6c2bb9765c68773ffbbf650e2ff382abbc00c",
+    "truncated_input": false
+  },
+  {
+    "id": "ILMN/2008/page_86.pdf-2",
+    "filename": "ILMN/2008/page_86.pdf",
+    "raw_program": "subtract(2.6, 1.4), divide(#0, 1.4)",
+    "input_hash": "4b7c36272a72fe11d19c7e323f58beed33f6ab9dacfb11a937aa8a5279cb764d",
+    "truncated_input": false
+  },
+  {
+    "id": "ZBH/2008/page_57.pdf-2",
+    "filename": "ZBH/2008/page_57.pdf",
+    "raw_program": "divide(460.1, 58.9)",
+    "input_hash": "e7f32c2a6b47d43eabf489d019ac6185b53d3bde6cce268b93d61ca9b922210f",
+    "truncated_input": false
+  },
+  {
+    "id": "HWM/2015/page_173.pdf-2",
+    "filename": "HWM/2015/page_173.pdf",
+    "raw_program": "divide(29, 8)",
+    "input_hash": "12f39ef0ec1fc0a7022fa4cb1e379f7cf5449a773727aeeece072b78d453afa4",
+    "truncated_input": false
+  },
+  {
+    "id": "ETR/2003/page_157.pdf-1",
+    "filename": "ETR/2003/page_157.pdf",
+    "raw_program": "divide(14773, 14773)",
+    "input_hash": "726dbb007332134eff2e8c5b88267f91fad4e0a99419db4a3a839922d4ab5caa",
+    "truncated_input": false
+  },
+  {
+    "id": "ABMD/2008/page_86.pdf-1",
+    "filename": "ABMD/2008/page_86.pdf",
+    "raw_program": "subtract(224, 168), divide(#0, 168)",
+    "input_hash": "40138f4ef66b6f1819a27028ce251232d3d1910e65b5af22b9a03635c7ba3eff",
+    "truncated_input": false
+  },
+  {
+    "id": "APD/2018/page_30.pdf-2",
+    "filename": "APD/2018/page_30.pdf",
+    "raw_program": "subtract(4.25, 3.71), divide(#0, 3.31)",
+    "input_hash": "f033df34f1a2f2f6b309910ebcb8c6d610e388c6c84cb7310e2b0436925680d8",
+    "truncated_input": false
+  },
+  {
+    "id": "ABMD/2007/page_78.pdf-4",
+    "filename": "ABMD/2007/page_78.pdf",
+    "raw_program": "subtract(8.05, 6.91), divide(#0, 6.91)",
+    "input_hash": "a7b20027d7691ad09b2d77e874da052d9b2471634295191e07b6acd5c81f0a9e",
+    "truncated_input": false
+  },
+  {
+    "id": "MKTX/2012/page_42.pdf-3",
+    "filename": "MKTX/2012/page_42.pdf",
+    "raw_program": "subtract(24.19, 19.78), divide(#0, 19.78)",
+    "input_hash": "0bf4b78710b10a4791b09d60c3452515682a20a8776651dc7147570df0542829",
+    "truncated_input": false
+  },
+  {
+    "id": "RSG/2018/page_94.pdf-2",
+    "filename": "RSG/2018/page_94.pdf",
+    "raw_program": "divide(78.6, 108.1)",
+    "input_hash": "4708b362795e8320b1aae6bc545e8a6bc7abef745aa7a5e39a25633f09492689",
+    "truncated_input": false
+  },
+  {
+    "id": "NWS/2019/page_116.pdf-1",
+    "filename": "NWS/2019/page_116.pdf",
+    "raw_program": "multiply(210, const_7)",
+    "input_hash": "454442ec5fb481f4aa8497cde4cd43de6335cd4df2c2ad975443b7f091f2ebef",
+    "truncated_input": false
+  },
+  {
+    "id": "ILMN/2003/page_58.pdf-1",
+    "filename": "ILMN/2003/page_58.pdf",
+    "raw_program": "subtract(21.44, const_100), divide(#0, const_100)",
+    "input_hash": "7bce7a0c36085dfa317a47f9d60fe92bbf4ebeb08ecc40258ca98cb7e5d350db",
+    "truncated_input": false
+  },
+  {
+    "id": "HIG/2004/page_140.pdf-1",
+    "filename": "HIG/2004/page_140.pdf",
+    "raw_program": "divide(30, 294)",
+    "input_hash": "9945e820a1a86a95cdfb76ad77451931d7accab97a2a3baf9e4441fe06be92c9",
+    "truncated_input": false
+  },
+  {
+    "id": "JPM/2012/page_140.pdf-1",
+    "filename": "JPM/2012/page_140.pdf",
+    "raw_program": "subtract(434814, 382739), divide(#0, 382739)",
+    "input_hash": "abd7cad4a4c495a3f0bcf77dee2112dd61e868ae4bb9b853b239c455be189c94",
+    "truncated_input": true
+  },
+  {
+    "id": "AMT/2014/page_160.pdf-2",
+    "filename": "AMT/2014/page_160.pdf",
+    "raw_program": "divide(495.2, 59.2)",
+    "input_hash": "92643aeb3ae72cb57d80954c5483eb41f169157f1b7455ac21782b2f06799e8c",
+    "truncated_input": false
+  },
+  {
+    "id": "AAL/2015/page_114.pdf-1",
+    "filename": "AAL/2015/page_114.pdf",
+    "raw_program": "divide(1733, 2655)",
+    "input_hash": "bfdc2ef43acb240cce7b665384bc6fed93aec496d664a8a9d1b7b901284e5903",
+    "truncated_input": false
+  },
+  {
+    "id": "HWM/2018/page_96.pdf-2",
+    "filename": "HWM/2018/page_96.pdf",
+    "raw_program": "subtract(33.32, 26.93), divide(#0, 33.32)",
+    "input_hash": "e35c6c068eb33ea70f51e30e2a56fa3f330d0ec3be6c6d20b193dec3cfdc70ea",
+    "truncated_input": false
+  },
+  {
+    "id": "DISCA/2011/page_49.pdf-1",
+    "filename": "DISCA/2011/page_49.pdf",
+    "raw_program": "subtract(22.09, const_100), divide(#0, const_100)",
+    "input_hash": "7f0515f30d53f27caaf15cf7294175eeb29283fc33c11c62dfb73a75980a1aef",
+    "truncated_input": true
+  },
+  {
+    "id": "UPS/2010/page_52.pdf-3",
+    "filename": "UPS/2010/page_52.pdf",
+    "raw_program": "divide(220, 924)",
+    "input_hash": "1dcafd22d762c0c3573ae495dbe7c179f4c2e6ec9a53f1ac9bbcd6f54c6a37e9",
+    "truncated_input": false
+  },
+  {
+    "id": "V/2008/page_180.pdf-1",
+    "filename": "V/2008/page_180.pdf",
+    "raw_program": "divide(1088, 4944)",
+    "input_hash": "60953842b63b91e3bf6ef6017deb043ba7cd96f554ead178fcf0c27563a52b47",
+    "truncated_input": false
+  }
+]

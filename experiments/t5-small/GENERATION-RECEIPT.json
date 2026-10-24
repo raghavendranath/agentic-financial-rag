@@ -1,0 +1,14 @@
+{
+  "checkpoint_hashes": {
+    "model.safetensors": "67e0e8dabca1b00c052e7d4c16b2c4a142635a2b94538fb1881c28a704e08e0b",
+    "tokenizer_config.json": "ecce2f09bb20bdf7f8153acdd576514ed8d67ddea726342823fa2a2b5b76d5ad",
+    "config.json": "5c368ff460c49018119b255b922c07701e19148c6aff1c45005dfcaf7e58e09a",
+    "tokenizer.json": "2432e8aa83414a69884a5cbd54a68f528c042d1f30780affbefcbb85091f022e",
+    "generation_config.json": "2e6e2716f1925aac8fdbee6e61a49f809b7ecedd4f74e0e94b0517b5d9504c1a"
+  },
+  "evaluation_labels_loaded": false,
+  "prediction_hash": "104f1f19d11c6e8feb713af9aac9e5821f83ce7dfaf1bea72bc24074bb772f77",
+  "items": 50,
+  "device": "mps",
+  "sampling": false
+}

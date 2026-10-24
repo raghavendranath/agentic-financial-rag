@@ -1,0 +1,61 @@
+{
+  "evaluation": "Upstream FinQA execution on predicted arithmetic programs",
+  "upstream_script_sha256": "845cd131cab843eceff256cf6d392978cc470a7da4a80107beb56027fdca5c13",
+  "arms": {
+    "agentic": {
+      "n": 50,
+      "correct": 37,
+      "official_program_execution_accuracy": 0.74,
+      "accuracy_95ci": [
+        0.62,
+        0.86
+      ],
+      "scalar_numerical_f1": 0.7291666666666666,
+      "numerical_n": 48,
+      "numerical_correct": 35,
+      "final_answers_with_calculator_value_different_from_model_stated_value": 25
+    },
+    "baseline_v2": {
+      "n": 50,
+      "correct": 30,
+      "official_program_execution_accuracy": 0.6,
+      "accuracy_95ci": [
+        0.46,
+        0.74
+      ],
+      "scalar_numerical_f1": 0.5833333333333334,
+      "numerical_n": 48,
+      "numerical_correct": 28,
+      "final_answers_with_calculator_value_different_from_model_stated_value": 28
+    },
+    "single_shot": {
+      "n": 50,
+      "correct": 30,
+      "official_program_execution_accuracy": 0.6,
+      "accuracy_95ci": [
+        0.46,
+        0.74
+      ],
+      "scalar_numerical_f1": 0.5833333333333334,
+      "numerical_n": 48,
+      "numerical_correct": 28,
+      "final_answers_with_calculator_value_different_from_model_stated_value": 28
+    }
+  },
+  "paired_agentic_minus_single_shot": {
+    "difference": 0.14,
+    "95ci": [
+      0.06,
+      0.24
+    ],
+    "corrected": 7,
+    "corrupted": 0
+  },
+  "limitations": [
+    "Public processed-page subset, known-filing retrieval; not original 1200-question run.",
+    "Numerical F1 on one final number equals numeric-item accuracy; not recovered historical scorer.",
+    "Symbolic program accuracy not claimed; this checks execution only.",
+    "Calculator validates arithmetic, not financial interpretation or evidence grounding.",
+    "No label edits, scale forgiveness, sign forgiveness or tolerance changes."
+  ]
+}

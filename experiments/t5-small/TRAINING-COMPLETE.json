@@ -1,0 +1,68 @@
+{
+  "status": "training_complete",
+  "device": "mps",
+  "model": {
+    "model": "google-t5/t5-small",
+    "model_revision": "df1b051c49625cf57a3d0d8d3863ed4d13564fe4",
+    "seed": 18,
+    "epochs": 3,
+    "batch_size": 8,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "warmup_fraction": 0.1,
+    "gradient_clip": 1.0,
+    "max_input_tokens": 512,
+    "max_target_tokens": 128,
+    "num_beams": 1,
+    "do_sample": false,
+    "selection": "final checkpoint after exactly three epochs; no test-driven checkpoint or hyperparameter selection",
+    "reader": "top ten public page rows by deterministic query-token overlap; same at training/development/evaluation",
+    "scope": "New T5-small supervised program generator; not the historical 0.76 model and not a matched BGE-RAG ablation"
+  },
+  "data": {
+    "train": {
+      "examples": 4988,
+      "truncated_inputs": 826,
+      "truncated_targets": 0
+    },
+    "development": {
+      "examples": 100,
+      "truncated_inputs": 25,
+      "truncated_targets": 0
+    }
+  },
+  "total_steps": 1872,
+  "torch": "2.14.1",
+  "protocol_sha256": "2d723ea27c79d78a37c95ad2cfe7d8c2b0964b4b4d80906cf9eefec3bd8a2b31",
+  "source_sha256": "1fa23472df3ebc6093dec7ed1c198b9f646a061c337f83ee708dc0b0a82cda59",
+  "evaluation_labels_loaded": false,
+  "steps": 1872,
+  "epochs": [
+    {
+      "epoch": 1,
+      "training_loss": 1.9361361547193243,
+      "development_loss": 1.2377034139633178,
+      "elapsed_seconds": 370.03221791703254
+    },
+    {
+      "epoch": 2,
+      "training_loss": 1.228821365997709,
+      "development_loss": 1.141483600139618,
+      "elapsed_seconds": 739.0377657919889
+    },
+    {
+      "epoch": 3,
+      "training_loss": 1.0896022518157193,
+      "development_loss": 1.104105579853058,
+      "elapsed_seconds": 1125.8565116249956
+    }
+  ],
+  "elapsed_seconds": 1126.203274999978,
+  "checkpoint_hashes": {
+    "model.safetensors": "67e0e8dabca1b00c052e7d4c16b2c4a142635a2b94538fb1881c28a704e08e0b",
+    "tokenizer_config.json": "ecce2f09bb20bdf7f8153acdd576514ed8d67ddea726342823fa2a2b5b76d5ad",
+    "config.json": "5c368ff460c49018119b255b922c07701e19148c6aff1c45005dfcaf7e58e09a",
+    "tokenizer.json": "2432e8aa83414a69884a5cbd54a68f528c042d1f30780affbefcbb85091f022e",
+    "generation_config.json": "2e6e2716f1925aac8fdbee6e61a49f809b7ecedd4f74e0e94b0517b5d9504c1a"
+  }
+}

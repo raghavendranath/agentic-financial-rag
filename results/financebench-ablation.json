@@ -1,0 +1,151 @@
+{
+  "status": "complete",
+  "benchmark": "financebench",
+  "evaluation_role": "post-hoc additional component ablation on previously inspected fixed sample",
+  "questions": 50,
+  "arms": {
+    "single_shot": {
+      "questions": 50,
+      "literal_matches": 6,
+      "normalized_literal_em": 0.12,
+      "95ci_filing_cluster_bootstrap": [
+        0.038461538461538464,
+        0.23404255319148937
+      ],
+      "whole_numeric_reference_questions": 16,
+      "numeric_reference_matches": 6,
+      "scalar_numeric_reference_f1": 0.375,
+      "mean_answer_passes": 1.0,
+      "unique_model_requests_attributed": 50,
+      "attributed_response_cost_usd": 0.07113834,
+      "output_status_counts": {
+        "unvalidated": 35,
+        "invalid": 6,
+        "abstained": 9
+      }
+    },
+    "unguided_fixed_three_pass": {
+      "questions": 50,
+      "literal_matches": 9,
+      "normalized_literal_em": 0.18,
+      "95ci_filing_cluster_bootstrap": [
+        0.07547169811320754,
+        0.3181818181818182
+      ],
+      "whole_numeric_reference_questions": 16,
+      "numeric_reference_matches": 9,
+      "scalar_numeric_reference_f1": 0.5625,
+      "mean_answer_passes": 3.0,
+      "unique_model_requests_attributed": 150,
+      "attributed_response_cost_usd": 0.163288496,
+      "output_status_counts": {
+        "unvalidated": 37,
+        "invalid": 5,
+        "abstained": 8
+      }
+    },
+    "fixed_retrieval": {
+      "questions": 50,
+      "literal_matches": 9,
+      "normalized_literal_em": 0.18,
+      "95ci_filing_cluster_bootstrap": [
+        0.07547169811320754,
+        0.3181818181818182
+      ],
+      "whole_numeric_reference_questions": 16,
+      "numeric_reference_matches": 9,
+      "scalar_numeric_reference_f1": 0.5625,
+      "mean_answer_passes": 1.96,
+      "unique_model_requests_attributed": 231,
+      "attributed_response_cost_usd": 0.241363636,
+      "output_status_counts": {
+        "validated": 28,
+        "invalid": 1,
+        "abstained": 8,
+        "unvalidated": 13
+      }
+    },
+    "agentic": {
+      "questions": 50,
+      "literal_matches": 10,
+      "normalized_literal_em": 0.2,
+      "95ci_filing_cluster_bootstrap": [
+        0.09090909090909091,
+        0.3404255319148936
+      ],
+      "whole_numeric_reference_questions": 16,
+      "numeric_reference_matches": 10,
+      "scalar_numeric_reference_f1": 0.625,
+      "mean_answer_passes": 1.88,
+      "unique_model_requests_attributed": 240,
+      "attributed_response_cost_usd": 0.289434592,
+      "output_status_counts": {
+        "validated": 33,
+        "invalid": 1,
+        "abstained": 3,
+        "unvalidated": 13
+      }
+    }
+  },
+  "unguided_minus_comparator": {
+    "single_shot": {
+      "difference": 0.06,
+      "95ci_filing_cluster_bootstrap": [
+        0.0,
+        0.14285714285714285
+      ],
+      "reference_mismatch_to_match": 3,
+      "reference_match_to_mismatch": 0
+    },
+    "fixed_retrieval": {
+      "difference": 0.0,
+      "95ci_filing_cluster_bootstrap": [
+        0.0,
+        0.0
+      ],
+      "reference_mismatch_to_match": 0,
+      "reference_match_to_mismatch": 0
+    },
+    "agentic": {
+      "difference": -0.02,
+      "95ci_filing_cluster_bootstrap": [
+        -0.06818181818181818,
+        0.0
+      ],
+      "reference_mismatch_to_match": 0,
+      "reference_match_to_mismatch": 1
+    }
+  },
+  "pass_level_literal_agreement": {
+    "1": 0.12,
+    "2": 0.18,
+    "3": 0.18
+  },
+  "incremental_billing": {
+    "new_calls": 100,
+    "new_reported_cost_usd": "0.092150156",
+    "reused_first_drafts": 50,
+    "first_drafts_not_billed_again": true
+  },
+  "human_assessment_completed": false,
+  "integrity": {
+    "status": "passed",
+    "questions": 50,
+    "shared_initial_receipts": 50,
+    "new_paid_responses": 100,
+    "pending_reservations": 0,
+    "every_request_and_trajectory_replayed_offline": true,
+    "no_labels_accessed_in_generation": true,
+    "no_validator_signals_in_revision_context": true,
+    "fixed_evidence_and_final_third_pass_verified": true,
+    "official_program_execution_checks": 50
+  },
+  "limitations": [
+    "Literal EM/reference agreement is diagnostic, not human-assessed financial correctness or grounding.",
+    "Maximum answer-attempt budget is shared; total model calls/tokens and stopping rules differ.",
+    "The validated fixed-retrieval arm combines validator feedback and adaptive stopping. This comparison does not isolate those two mechanisms.",
+    "Full agentic comparison additionally changes retrieval. No independent effect of every component or EDGAR/Python tool is established.",
+    "This sample has been inspected before; no untouched-holdout or model-selection claim. Final third pass was frozen before new calls; no best-of-three selection.",
+    "All historical runs remain unchanged. No human-label study or CL error-injection/dependency experiment was performed."
+  ]
+}

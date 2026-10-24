@@ -1,0 +1,45 @@
+{
+  "benchmark": "finqa",
+  "units": 50,
+  "items": 50,
+  "correct": 30,
+  "normalized_exact_match": 0.6,
+  "accuracy_95ci": [
+    0.46,
+    0.74
+  ],
+  "numerical_items": 48,
+  "numerical_correct": 28,
+  "scalar_numerical_f1": 0.5833333333333334,
+  "numerical_f1_95ci": [
+    0.4375,
+    0.7083333333333334
+  ],
+  "official_arithmetic_checks": 50,
+  "integrity": "passed: all baseline requests and histories replayed offline",
+  "source_evidence_shared_with_deepseek": true,
+  "billing": {
+    "unique_calls": 50,
+    "reported_cost_usd": 0.01838924
+  },
+  "paired_comparisons": {
+    "qwen_minus_deepseek_single_shot": {
+      "difference": 0.0,
+      "95ci_filing_cluster_bootstrap": [
+        -0.14,
+        0.14
+      ],
+      "wrong_to_right": 7,
+      "right_to_wrong": 7
+    },
+    "qwen_minus_deepseek_agentic": {
+      "difference": -0.14,
+      "95ci_filing_cluster_bootstrap": [
+        -0.26,
+        -0.02
+      ],
+      "wrong_to_right": 2,
+      "right_to_wrong": 9
+    }
+  }
+}

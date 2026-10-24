@@ -1,0 +1,20 @@
+{
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "provider": "inference-net/fp8",
+  "embedding_model": "BAAI/bge-m3",
+  "chunk_tokens": 1500,
+  "overlap_tokens": 200,
+  "top_k": 10,
+  "max_attempts": 3,
+  "max_tokens": 4096,
+  "temperature": 0,
+  "seed": 18,
+  "budget_usd": 20.0,
+  "fixed_retrieval_ablation": false,
+  "reasoning": {
+    "enabled": false
+  },
+  "description": "Bounded v3 validation/refinement audit: same generator, model/provider, retrieval and max3 attempts; paired frozen-v2 comparator shares the identical initial answer. Development first, then one new holdout.",
+  "request_interval_seconds": 1.5,
+  "paired_v2_baseline": true
+}

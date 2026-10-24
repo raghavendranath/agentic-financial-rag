@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "predictions": 50,
+  "checkpoint_hashes_verified": true,
+  "independent_bounded_arithmetic_checks": 49,
+  "not_covered_by_secondary_arithmetic_executor": [
+    "MO/2016/page_19.pdf-1"
+  ],
+  "all_50_predictions_scored_by_pinned_official_executor": true,
+  "no_api_key_used": true
+}

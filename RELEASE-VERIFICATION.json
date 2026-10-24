@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "isolated_git_candidate_export": true,
+  "original_sibling_projects_unavailable": true,
+  "api_key_removed_from_environment": true,
+  "artifact_checksum_and_safe_unpack": "passed",
+  "scientific_sha256_snapshot_files": 233,
+  "experiment_tests": 121,
+  "release_tests": 5,
+  "all_selected_raw_request_trajectory_replays_and_rescoring": "passed",
+  "no_paid_model_calls": true,
+  "code_only_export_tests_without_artifact": "passed"
+}

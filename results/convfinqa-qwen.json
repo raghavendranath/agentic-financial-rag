@@ -1,0 +1,47 @@
+{
+  "benchmark": "convfinqa",
+  "units": 50,
+  "items": 178,
+  "correct": 114,
+  "normalized_exact_match": 0.6404494382022472,
+  "accuracy_95ci": [
+    0.5300546448087432,
+    0.7341040462427746
+  ],
+  "numerical_items": 178,
+  "numerical_correct": 114,
+  "scalar_numerical_f1": 0.6404494382022472,
+  "numerical_f1_95ci": [
+    0.5300546448087432,
+    0.7341040462427746
+  ],
+  "official_arithmetic_checks": 169,
+  "integrity": "passed: all baseline requests and histories replayed offline",
+  "source_evidence_shared_with_deepseek": true,
+  "billing": {
+    "unique_calls": 178,
+    "reported_cost_usd": 0.10447088
+  },
+  "paired_comparisons": {
+    "qwen_minus_deepseek_single_shot": {
+      "difference": -0.10112359550561797,
+      "95ci_filing_cluster_bootstrap": [
+        -0.1774193548387097,
+        -0.03571428571428571
+      ],
+      "wrong_to_right": 8,
+      "right_to_wrong": 26
+    },
+    "qwen_minus_deepseek_agentic": {
+      "difference": -0.11235955056179775,
+      "95ci_filing_cluster_bootstrap": [
+        -0.1912568306010929,
+        -0.047058823529411764
+      ],
+      "wrong_to_right": 7,
+      "right_to_wrong": 27
+    }
+  },
+  "all_turns_correct_conversation_rate": 0.32,
+  "first_three_turns_accuracy": 0.6766917293233082
+}

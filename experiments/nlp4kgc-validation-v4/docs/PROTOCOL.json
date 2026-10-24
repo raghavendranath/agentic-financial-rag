@@ -1,0 +1,21 @@
+{
+  "version": "financebench-engineering-v4",
+  "purpose": "Correct audited reconstruction defects within workshop live retrieval-generate-validate-refine architecture.",
+  "previous_results_immutable": true,
+  "inference_reference_access": false,
+  "models": "Same pinned DeepSeek and Qwen providers as correction run; new dated evaluation, not original results.",
+  "development": "Five preselected development inputs; evaluation fifty already inspected previously and therefore post-hoc, not an untouched test.",
+  "source_first_audit": "Same generating model receives only question, document identifier and current retrieved evidence, never candidate or earlier feedback. Separate comparison checks full answer, explanation and financial interpretation. Same model correlation remains.",
+  "contract": "Explicit amount/scalar/percent_fraction/percentage_points units. Final display must match executable program with question-requested rounding only. Preserve raw/model-stated/executed separately. Contract-invalid drafts score no answer, exact honest abstentions retained.",
+  "retrieval": "Pinned BGE-M3/FAISS known-document top10; standalone validator missing-fact query replaces concatenation; no hybrid, evidence union, new corpus or label search.",
+  "iterations": 3,
+  "arms": [
+    "single_shot shared initial draft",
+    "agentic full retrieval/refinement",
+    "fixed_retrieval same validation/refinement unchanged initial evidence"
+  ],
+  "final_policy": "Last attempt retained. Explicit status validated/unvalidated/abstained/invalid; unvalidated provisional values remain scored and are never described as validated facts.",
+  "metrics": "Literal EM diagnostic unchanged; no claim of FinanceBench human factual accuracy. Full answer and sources exported for human adjudication using correct/incorrect/failure rubric. No prior automated judge score transferred.",
+  "budget": "Dedicated OpenRouter key $20 lifetime cap; no automatic ambiguous paid retries; save all request payloads and responses.",
+  "scope_boundary": "No CL error injection, dependency-path experiments, verifier extension, prompts, code or results. Workshop generic checks treated as engineering, not a novel verifier contribution. Related work overlap must be disclosed."
+}

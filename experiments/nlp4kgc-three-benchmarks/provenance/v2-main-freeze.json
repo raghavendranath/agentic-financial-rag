@@ -1,0 +1,41 @@
+{
+  "utc": "2026-10-23T19:26:40Z",
+  "status": "Frozen after development checks, before any main inference; no further prompt/algorithm tuning on main outcomes",
+  "source_hash": "e8a5d488c80600e5ad54a70adb6f4215cbecf927e7242b6b4c5ab75628802a16",
+  "prompt_hash": "d3963d30d2ebf71d1621b11127e2c363c83b00e6ed97d039ae7d424e3d3d4ea6",
+  "legacy_source_hash": "342f16b163533bbb6fa0a24f789d3c7267da60cc4411e48f834b63c2f7ff3e39",
+  "data_hash": "de525bba82fcb54f30858ab51a7920a2428219d0a391f6cb8b411e39cc69dc0f",
+  "index_hash": "02f8accb7837fd910d02643be60fa2d50a9efe28e0c21c2f2fc3701add8b3577",
+  "config": {
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "provider": "deepinfra/fp8",
+    "embedding_model": "BAAI/bge-m3",
+    "chunk_tokens": 1500,
+    "overlap_tokens": 200,
+    "top_k": 10,
+    "max_attempts": 3,
+    "max_tokens": 4096,
+    "temperature": 0,
+    "seed": 18,
+    "budget_usd": 20.0,
+    "fixed_retrieval_ablation": false,
+    "reasoning": {
+      "enabled": false
+    },
+    "description": "New model extension: DeepSeek V4.1 Flash 1017 on the same paper architecture and frozen FinQA sample. Not the original R1 distill model or historical scores. Version 2: deterministic arithmetic; fresh held-out sample; original v1 results retained separately.",
+    "request_interval_seconds": 1.5
+  },
+  "workers": 1,
+  "evaluation_n": 100,
+  "development_n": 10,
+  "operational_changes_after_initial_plan": [
+    "Network pacing at 1.5 seconds minimum between starts",
+    "Explicit HTTP429 rejections retry at most three times after 20/40/45 seconds; other ambiguous network failures halt",
+    "Serial questions to limit concurrency during provider instability"
+  ],
+  "algorithm_changes_after_development": "None. Calculator, units and prompts unchanged from initial repair plan; only network transport was hardened.",
+  "pilot": "8/10 execution accuracy; no improvement from validation over its paired first draft; not a main result",
+  "comparison": "Same original inference logic in legacy fork; only network transport differs from immutable v1 source. Both versions share this hardened transport.",
+  "primary": "Exact upstream FinQA program execution agreement; singleton numeric-answer F1 separately. Historical 0.81 equivalence unavailable.",
+  "run_limits": "100 questions per version, max 3 attempts; no outcome-based early stopping or repeated tuning"
+}

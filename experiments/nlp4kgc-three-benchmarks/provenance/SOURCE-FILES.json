@@ -1,0 +1,252 @@
+[
+  {
+    "relative_path": "data/raw/financebench/financebench_open_source.jsonl",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/data/financebench_open_source.jsonl",
+    "sha256": "a5a2aa673e573e55675fc3c0f9aa38c1cf59d2abc91edb077534f71f10a71877"
+  },
+  {
+    "relative_path": "data/raw/financebench/financebench_document_information.jsonl",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/data/financebench_document_information.jsonl",
+    "sha256": "1c69127783879de8cdadb159d2181f39bc3123b8e0ebf74031c3969d69189575"
+  },
+  {
+    "relative_path": "data/raw/financebench/README.md",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/README.md",
+    "sha256": "ab1b914821c5f6329836d0f2c503dbaaa6504721bd0b1d0f70f43fbb23987cec"
+  },
+  {
+    "relative_path": "data/raw/convfinqa/data.zip",
+    "url": "https://raw.githubusercontent.com/czyssrs/ConvFinQA/cf3eed2d5984960bf06bb8145bcea5e80b0222a6/data.zip",
+    "sha256": "d764271fae60d81b62e6d58dfc481807ebc8cfbcd633811241723c4a2101072a"
+  },
+  {
+    "relative_path": "data/raw/convfinqa/LICENSE",
+    "url": "https://raw.githubusercontent.com/czyssrs/ConvFinQA/cf3eed2d5984960bf06bb8145bcea5e80b0222a6/LICENSE",
+    "sha256": "5c7b6fe25d37f4b6cc7e0e76267bce7146765b7661d4bb0e9ecc4eb0ed34fb4c"
+  },
+  {
+    "relative_path": "data/raw/convfinqa/README.md",
+    "url": "https://raw.githubusercontent.com/czyssrs/ConvFinQA/cf3eed2d5984960bf06bb8145bcea5e80b0222a6/README.md",
+    "sha256": "c5f329640aaffa142984e559b89e7cabd6934d03751260e9860b9278979c4c69"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/3M_2022_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/3M_2022_10K.pdf",
+    "sha256": "d5cf549543a24b04228fd2af979ff2ca94cf64fb008a789340cb9117fbcfde5d"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/ADOBE_2015_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/ADOBE_2015_10K.pdf",
+    "sha256": "f9ddba652f19e20752d98b1b4cedcebcb1a9a6d11dd23ab2e2f00f009a164c24"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/ADOBE_2022_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/ADOBE_2022_10K.pdf",
+    "sha256": "ce8c716abac26bfa38ae6b71d703112852c8591a4bb19f7c1177beb1dfc87ad2"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/AES_2022_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/AES_2022_10K.pdf",
+    "sha256": "9c5de2227534c4d6bf3d805f635bad5d82eddf8e4183a85a3d1311b48b50291d"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/AMAZON_2019_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/AMAZON_2019_10K.pdf",
+    "sha256": "d7df8c6cf3e351a8d68c7473be4159723d545260a32dbc82a8dd11c254c5584a"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/AMCOR_2020_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/AMCOR_2020_10K.pdf",
+    "sha256": "da158d5c68835374bcc52205663aa7653af1c2a6b31b09ab775c6e02a40da026"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/AMCOR_2022_8K_dated-2022-07-01.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/AMCOR_2022_8K_dated-2022-07-01.pdf",
+    "sha256": "1de32e72c265486469f3b1c7cbfbe064a27055e60f7b43a81439986dda9025ad"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/AMCOR_2023Q2_10Q.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/AMCOR_2023Q2_10Q.pdf",
+    "sha256": "71c39c3f338fc81a99e128e8e871e265818657670a7d29a62c454c905f94524c"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/AMCOR_2023Q4_EARNINGS.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/AMCOR_2023Q4_EARNINGS.pdf",
+    "sha256": "d155b7808e78167831648f476b7e3578e2d98645dee30862bbef4ff50fa24bf4"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/AMCOR_2023_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/AMCOR_2023_10K.pdf",
+    "sha256": "84d7a0291a12f4e68352750dccda3754c78eefdf06e0b5462046357a1ed53332"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/AMD_2022_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/AMD_2022_10K.pdf",
+    "sha256": "a3bd74088fae0ad4aa03d04998a1f4c64fd0b3c693841601b0ac49b46cf5c1f4"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/AMERICANWATERWORKS_2021_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/AMERICANWATERWORKS_2021_10K.pdf",
+    "sha256": "701528ae6d14a77229468a829ee18f01ed439d5be012d0a915d2683335051029"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/BESTBUY_2023_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/BESTBUY_2023_10K.pdf",
+    "sha256": "7ca465d31a08be29e8c08d756644d33d818c7254a1215720f265227005cda696"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/BESTBUY_2024Q2_10Q.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/BESTBUY_2024Q2_10Q.pdf",
+    "sha256": "cf9efb922bdd28d726d7e1605c5fa1f263dda72e033989e3bc9ee3a3bb356c03"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/BOEING_2018_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/BOEING_2018_10K.pdf",
+    "sha256": "6f1ace34b3b01778ad7d92d43ccd2f76513d5159ef48fbc07b510296cf2d07dc"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/BOEING_2022_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/BOEING_2022_10K.pdf",
+    "sha256": "09285ff7ee737d3302977104aa05cc53c9dfb0161f3461a89b583dc38b9f2ab6"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/COCACOLA_2017_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/COCACOLA_2017_10K.pdf",
+    "sha256": "b57c75cf20916904f31c6aa7644d6c110f019adf7c76782c7d0ede7b95c65ac1"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/COCACOLA_2021_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/COCACOLA_2021_10K.pdf",
+    "sha256": "46a7059b9da795cd1ea9862d5b4f82a21e9b72e799351927a11f5cb4c528b592"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/COCACOLA_2022_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/COCACOLA_2022_10K.pdf",
+    "sha256": "9f91bb914d94d014cfca96e1021c932d5476d8b8ac2a933767bac4c438fd7a71"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/CORNING_2020_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/CORNING_2020_10K.pdf",
+    "sha256": "ef471ab9ff6067f117977df6df8b4b5007066286b733981475ac2ccf48d91e59"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/CORNING_2022_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/CORNING_2022_10K.pdf",
+    "sha256": "a63f102f045826b38ad21a606c33710f62932646fd7c0f1852ce411a4397a3ee"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/COSTCO_2021_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/COSTCO_2021_10K.pdf",
+    "sha256": "29e05b3862cf6ffa6cfda34ac82a9fa0fe76b67338c5924da3325c2ee3b08748"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/CVSHEALTH_2022_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/CVSHEALTH_2022_10K.pdf",
+    "sha256": "183c196a41793cd50002ff6b88f8c6d32e4fcb1117ab490a732414e1208cda8f"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/FOOTLOCKER_2022_8K_dated-2022-05-20.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/FOOTLOCKER_2022_8K_dated-2022-05-20.pdf",
+    "sha256": "865f22331a5943a85e53e38d1753addbeb6c42270853cddd0abc73ab23d150e9"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/GENERALMILLS_2019_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/GENERALMILLS_2019_10K.pdf",
+    "sha256": "e8120ce31b22136e15c14115cdfbf3ddc548e58f15b6febc350c422a4c12d9db"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/JOHNSON_JOHNSON_2022_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/JOHNSON_JOHNSON_2022_10K.pdf",
+    "sha256": "dba7d6cc97734abd6dcbc1a6a34f82b5d228e60d0a1a32425a90404fd4d3e290"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/JOHNSON_JOHNSON_2023Q2_EARNINGS.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/JOHNSON_JOHNSON_2023Q2_EARNINGS.pdf",
+    "sha256": "db1f3419d309440e644dc3cdfbb74758e67734dd181e5dbabc7479d0ab92d026"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/JPMORGAN_2021Q1_10Q.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/JPMORGAN_2021Q1_10Q.pdf",
+    "sha256": "62518c05b02265dc13ca257d9ec0be0aec4449dad53db0c77d93444e7e2cfe97"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/LOCKHEEDMARTIN_2020_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/LOCKHEEDMARTIN_2020_10K.pdf",
+    "sha256": "1e68051a649270779fc5cb68806612a28d7d81288ed75dd37aa1858717bf55a0"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/LOCKHEEDMARTIN_2021_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/LOCKHEEDMARTIN_2021_10K.pdf",
+    "sha256": "d2486265fedea887bcc621f0b2dbb9670e66fe05203e1378b8e650c9564732fb"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/LOCKHEEDMARTIN_2022_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/LOCKHEEDMARTIN_2022_10K.pdf",
+    "sha256": "9a2317300d0f1e2623ba291fe9ec38fc779c1d1ad989dcfe6f862b77435c6923"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/MGMRESORTS_2020_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/MGMRESORTS_2020_10K.pdf",
+    "sha256": "98a9a55baf838309d16a730fd63efbcd146be1911b61abb3658b1774f360b099"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/MGMRESORTS_2022Q4_EARNINGS.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/MGMRESORTS_2022Q4_EARNINGS.pdf",
+    "sha256": "fe9126b17c3656e50d53741b13cb5fb233d4adaf922e4d84072b1d5e564fbfbd"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/MGMRESORTS_2022_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/MGMRESORTS_2022_10K.pdf",
+    "sha256": "130b96c1309c97aaedcabee2fa5d5421e54491e618273bd33c3b1aeddad323ec"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/MICROSOFT_2023_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/MICROSOFT_2023_10K.pdf",
+    "sha256": "e534af371c824aab19b8d01f8bc0e9d1e0a3fb418a33119c5224a53d20a0d37b"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/NIKE_2019_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/NIKE_2019_10K.pdf",
+    "sha256": "7dbdf1bcbf37dd6d6e694ce95bcb23cd6943d08cc9cd1e5ee9832ed8f7eebdc6"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/NIKE_2023_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/NIKE_2023_10K.pdf",
+    "sha256": "51f5a0fc6ede20de4f5cfdeae8791a57bdd65c95db2ceb263eb120696ff90172"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/PEPSICO_2021_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/PEPSICO_2021_10K.pdf",
+    "sha256": "f2c7cf1969c7f6dfc8c0596824e1d6b3cc70f662ee2dd06be84bb27af5635364"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/PEPSICO_2022_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/PEPSICO_2022_10K.pdf",
+    "sha256": "7d8a9f3374e429c58f101319e2da8a0e601a89859e1e4f6854163dd5f8ce6b47"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/PEPSICO_2023_8K_dated-2023-05-30.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/PEPSICO_2023_8K_dated-2023-05-30.pdf",
+    "sha256": "8e8f99f270b065e105636f54b2684f4c4170b3fc80845ae2f393bf66f3291d2c"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/Pfizer_2023Q2_10Q.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/Pfizer_2023Q2_10Q.pdf",
+    "sha256": "bf6c059a1dd71bd56581c94bce650bd85b56de2f4d0a25b45f05804a8bd6684d"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/ULTABEAUTY_2023Q4_EARNINGS.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/ULTABEAUTY_2023Q4_EARNINGS.pdf",
+    "sha256": "c7df6210a627042e231c9579982648a43f3ff8b630b4020540330c2a85e0d781"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/ULTABEAUTY_2023_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/ULTABEAUTY_2023_10K.pdf",
+    "sha256": "cdf2ebcfbc2eb9ecf880126d38b186cac1f683dae5bcb50cad15176bfc449ff4"
+  },
+  {
+    "relative_path": "data/raw/financebench-pdfs/VERIZON_2022_10K.pdf",
+    "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/pdfs/VERIZON_2022_10K.pdf",
+    "sha256": "403d7346e8a059472863d1789527f16e5127a61c2f6c4429012e6227f27576d7"
+  }
+]

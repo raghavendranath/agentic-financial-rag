@@ -1,0 +1,49 @@
+{
+  "config": {
+    "model": "google-t5/t5-small",
+    "model_revision": "df1b051c49625cf57a3d0d8d3863ed4d13564fe4",
+    "seed": 18,
+    "epochs": 3,
+    "batch_size": 8,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "warmup_fraction": 0.1,
+    "gradient_clip": 1.0,
+    "max_input_tokens": 512,
+    "max_target_tokens": 128,
+    "num_beams": 1,
+    "do_sample": false,
+    "selection": "final checkpoint after exactly three epochs; no test-driven checkpoint or hyperparameter selection",
+    "reader": "top ten public page rows by deterministic query-token overlap; same at training/development/evaluation",
+    "scope": "New T5-small supervised program generator; not the historical 0.76 model and not a matched BGE-RAG ablation"
+  },
+  "sources": {
+    "train": {
+      "url": "https://raw.githubusercontent.com/czyssrs/FinQA/0f16e2867befa6840783e58be38c9efb9229d742/dataset/train.json",
+      "sha256": "49f237eb9779b569473b26b08048867d04635a7cc39ad6a7a5664c55bb428db6"
+    },
+    "dev": {
+      "url": "https://raw.githubusercontent.com/czyssrs/FinQA/0f16e2867befa6840783e58be38c9efb9229d742/dataset/dev.json",
+      "sha256": "a847fb7e0d61a3125a1e2909852df6b89f1ee64d2c5ff1bf689e332214deee51"
+    },
+    "test": {
+      "url": "https://raw.githubusercontent.com/czyssrs/FinQA/0f16e2867befa6840783e58be38c9efb9229d742/dataset/test.json",
+      "sha256": "831dbfb2e785dbc227f895ce3f24046433467aec67b09db2bd6ac7692a8a30dc"
+    }
+  },
+  "source_commit": "0f16e2867befa6840783e58be38c9efb9229d742",
+  "train": 4988,
+  "official_train_total": 6251,
+  "excluded_train_filing_overlap": 1263,
+  "development": 100,
+  "evaluation": 50,
+  "data_hashes": {
+    "train.json": "b3e607cff8d62687db39eabead1eb0234c62f4798016c14779e475f1f526640b",
+    "development.json": "0792768dc9d3ea15adcac1c09b167c6fb977a06131a57d478c7863f49d31eb18",
+    "evaluation.inputs.json": "10cddf6baeb2f24422d44b41fc01e8e87cc22470266d42ad2f0ad9f47485c1b3",
+    "evaluation.labels.json": "521380bc4a8aadd3345e69b214c17ea6bce511db880ff53b8efba77ac1b12c7a"
+  },
+  "disjoint_train_dev_test_filings": true,
+  "evaluation_ids_equal_frozen_finqa": true,
+  "additional_api_cost_usd": 0
+}

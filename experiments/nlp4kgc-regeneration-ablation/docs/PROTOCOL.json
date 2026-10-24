@@ -1,0 +1,20 @@
+{
+  "experiment": "FinanceBench self-revision without explicit validator feedback",
+  "status": "fixed before any new paid completion",
+  "sample": "Exact 50 previously inspected FinanceBench evaluation questions used in v4; post-hoc ablation, not a fresh holdout",
+  "model": "Same pinned DeepSeek model/provider, temperature zero, seed 18, 4096 output cap and typed contract as v4",
+  "shared_initial": "Reuse exact first draft and initial retrieved evidence; verify original request and parsed-attempt hashes; no first-draft billing again",
+  "new_calls": "Exactly two new answer completions per question, 100 total, in passes two and three",
+  "revision_context": "Previous model's declared typed answer or raw malformed reply plus the same generic reconsideration instruction and pass number; no validator verdict, source audit, acceptance, parser issues, executed result, reference answer or gold evidence",
+  "retrieval": "Same initial top-10 known-report evidence in all passes; no retrieval call, reformulation or evidence augmentation",
+  "execution": "Same bounded arithmetic/output parsing as v4 in every arm; diagnostics are not supplied to the revision model",
+  "stopping_and_selection": "No early stopping; always three answer passes even if an earlier draft is usable; final third draft is scored, including malformed/abstained drafts; no best-of-three selection",
+  "comparators": ["v4 single-shot exact shared first draft", "v4 validated fixed-retrieval refinement", "v4 full retrieval-and-validation refinement"],
+  "primary_diagnostic": "Unchanged v4 normalized literal reference agreement across all 50; scalar numerical F1 on 16 whole-numeric-reference items is secondary; neither is human factual accuracy",
+  "uncertainty": "Paired per-question transitions and 2000 filing-cluster bootstrap draws, seed 18, reported for unguided minus each comparator",
+  "budget_comparability": "Shared maximum of three answer attempts, not matched total LLM calls, tokens or stopping rule. Validated fixed retrieval adds checking calls and adaptive stopping; full arm also changes retrieval. Do not attribute differences solely to validation",
+  "human_evaluation": "Deferred as requested; all exports remain unreviewed",
+  "scope": "Workshop RAG component ablation only; no CL controlled-history, dependency or repair study imported",
+  "spending": "User explicitly lifted former $20 overall ceiling. This finite 100-new-request experiment uses existing key/server limits, preserves receipts and reports actual cost; no automatic ambiguous paid retry",
+  "reporting": "Report all outcomes regardless of score and preserve all earlier experiments unchanged; no model, prompt, scorer or sample tuning after assessment"
+}

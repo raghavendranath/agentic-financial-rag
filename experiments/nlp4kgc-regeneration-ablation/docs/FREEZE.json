@@ -1,0 +1,249 @@
+{
+  "source_hash": "c6b4ce1f3e7bebc4320afa95ee8945fc234d8a327b58bc18d0bb34e58d0553a5",
+  "tools": {
+    "common.py": "1de8f168c9f61b57604b0b7b6c8d7fdfcdfbdc78a9de8f9277ec5c20228e5ffb",
+    "prepare.py": "f2cbf889ac078aa1c5ca08fa6209fb21171a1be89129ad9c308be7b3fdeebc33",
+    "run_ablation.py": "f4c885406847480ad1bd0209e71a30fc01f666458f23fa9314989ce6a37195f4",
+    "score_ablation.py": "cc31251f6292390372f2efc8c849d6db551a3adb125082dd509eb78520e388f7"
+  },
+  "tests": {
+    "test_unguided.py": "09fe487344b0ab8daada661b871eb9865723b297ab83ca292d58f61b0e96a2e1"
+  },
+  "config": {
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "provider": "inference-net/fp8",
+    "embedding_model": "BAAI/bge-m3",
+    "chunk_tokens": 1500,
+    "overlap_tokens": 200,
+    "top_k": 10,
+    "max_attempts": 3,
+    "max_tokens": 4096,
+    "temperature": 0,
+    "seed": 18,
+    "budget_usd": 20.0,
+    "fixed_retrieval_ablation": true,
+    "reasoning": {
+      "enabled": false
+    },
+    "description": "FinanceBench v4: typed unit consistency, source-first same-model validation plus comparison, focused missing-fact retrieval; maximum three attempts. New post-hoc engineering protocol; no CL code or results.",
+    "request_interval_seconds": 1.5,
+    "paired_v2_baseline": false
+  },
+  "inputs_hash": "e112a68ea29bdf3882d855dba6ce308827ab1deedba33900f85450119879c5a2",
+  "protocol_hash": "f0a8e8b70044dd46977d96efb2e68108e4077fb1fb6073c92a4e360eda75ad93",
+  "assessment_files": {
+    "comparators.json": "8b097bfbdd0f7117ea5e7c14fe53ca44ef9e673ac63035369efab5845821bf6e",
+    "evaluation.labels.json": "219d9d1391e70d7e988d37b31e07c03a16bc487a6d74d1899c1a10145f9804b2",
+    "source-call-costs.json": "d6ce10a44ec2e0bc86868bc84c1e4ccf652e91f09942076f390d1e0d742e8f35"
+  },
+  "source_receipt": {
+    "source_project": "nlp4kgc-validation-v4",
+    "source_manifest_hash": "0d69434ee2282226e876ee01f0e70a4b372e98ed78ae76558b92ffe1a2ccd6f3",
+    "source_results_hash": "6f9879692cf7e200ae12d413b64939f9f0c2b4d88fde7c5c345b4cfa5f51b75d",
+    "source_inputs_hash": "e5db0beb4e48a6b78edeba0145be9fa6dd006529015113f60571127e7d77379d",
+    "source_data_manifest": {
+      "dataset": "financebench",
+      "source": {
+        "repository": "https://github.com/patronus-ai/financebench",
+        "commit": "cc39aeb4afdf33909ee1412188bf89035950c2eb"
+      },
+      "retrieval": "BGE-M3/FAISS over full selected report PDFs; known-document filter",
+      "pdf_pages": 6261,
+      "pdf_extractor": "PyMuPDF 2.0",
+      "empty_pages": [
+        [
+          "AES_2022_10K",
+          130
+        ],
+        [
+          "AES_2022_10K",
+          187
+        ],
+        [
+          "AMCOR_2020_10K",
+          178
+        ],
+        [
+          "AMCOR_2020_10K",
+          179
+        ],
+        [
+          "AMCOR_2020_10K",
+          180
+        ],
+        [
+          "AMCOR_2020_10K",
+          181
+        ],
+        [
+          "AMCOR_2020_10K",
+          182
+        ],
+        [
+          "AMCOR_2020_10K",
+          183
+        ],
+        [
+          "AMCOR_2020_10K",
+          184
+        ],
+        [
+          "AMCOR_2020_10K",
+          185
+        ],
+        [
+          "AMCOR_2020_10K",
+          186
+        ],
+        [
+          "AMCOR_2020_10K",
+          187
+        ],
+        [
+          "AMERICANWATERWORKS_2021_10K",
+          150
+        ],
+        [
+          "AMERICANWATERWORKS_2021_10K",
+          152
+        ],
+        [
+          "AMERICANWATERWORKS_2021_10K",
+          154
+        ],
+        [
+          "AMERICANWATERWORKS_2021_10K",
+          156
+        ],
+        [
+          "BOEING_2022_10K",
+          59
+        ],
+        [
+          "CVSHEALTH_2022_10K",
+          205
+        ],
+        [
+          "MICROSOFT_2023_10K",
+          115
+        ],
+        [
+          "Pfizer_2023Q2_10Q",
+          1
+        ]
+      ],
+      "source_evidence_used_in_inference": false,
+      "corpus_hash": "019178e24f9d160ac9d286799ef996f0a3331e82f044681c69e735870cc5e951",
+      "splits": {
+        "development": {
+          "n": 5,
+          "ids": [
+            "financebench_id_04209",
+            "financebench_id_03849",
+            "financebench_id_01936",
+            "financebench_id_00822",
+            "financebench_id_01865"
+          ],
+          "inputs_hash": "e055fe4d8927442949806c496c885791c6a97f94204a7f7dd935166a845718f5",
+          "labels_hash": "269bb073793ac37fcb0391aa81b46b6e6aae8c835cb0aad78dca5d96c2b694e3"
+        },
+        "evaluation": {
+          "n": 50,
+          "ids": [
+            "financebench_id_01254",
+            "financebench_id_01077",
+            "financebench_id_04103",
+            "financebench_id_00566",
+            "financebench_id_00222",
+            "financebench_id_00917",
+            "financebench_id_01930",
+            "financebench_id_00705",
+            "financebench_id_03882",
+            "financebench_id_03718",
+            "financebench_id_00585",
+            "financebench_id_00956",
+            "financebench_id_00552",
+            "financebench_id_08286",
+            "financebench_id_01346",
+            "financebench_id_01079",
+            "financebench_id_00684",
+            "financebench_id_01290",
+            "financebench_id_04735",
+            "financebench_id_00678",
+            "financebench_id_03531",
+            "financebench_id_00382",
+            "financebench_id_09724",
+            "financebench_id_00995",
+            "financebench_id_03031",
+            "financebench_id_00685",
+            "financebench_id_00606",
+            "financebench_id_06272",
+            "financebench_id_00299",
+            "financebench_id_01487",
+            "financebench_id_01935",
+            "financebench_id_04254",
+            "financebench_id_01319",
+            "financebench_id_00746",
+            "financebench_id_01163",
+            "financebench_id_00460",
+            "financebench_id_01198",
+            "financebench_id_00735",
+            "financebench_id_10130",
+            "financebench_id_00799",
+            "financebench_id_04412",
+            "financebench_id_00591",
+            "financebench_id_00215",
+            "financebench_id_10285",
+            "financebench_id_01328",
+            "financebench_id_01148",
+            "financebench_id_03473",
+            "financebench_id_02419",
+            "financebench_id_00790",
+            "financebench_id_04980"
+          ],
+          "inputs_hash": "e5db0beb4e48a6b78edeba0145be9fa6dd006529015113f60571127e7d77379d",
+          "labels_hash": "cdc3fc4c79e07145d8c3bbf82a3f3afac296a953f15b281e358629a31b40c948"
+        }
+      }
+    },
+    "provider_name": "InferenceNet",
+    "source_config": {
+      "model": "deepseek/deepseek-v4.1-flash-1017",
+      "provider": "inference-net/fp8",
+      "embedding_model": "BAAI/bge-m3",
+      "chunk_tokens": 1500,
+      "overlap_tokens": 200,
+      "top_k": 10,
+      "max_attempts": 3,
+      "max_tokens": 4096,
+      "temperature": 0,
+      "seed": 18,
+      "budget_usd": 20.0,
+      "fixed_retrieval_ablation": true,
+      "reasoning": {
+        "enabled": false
+      },
+      "description": "FinanceBench v4: typed unit consistency, source-first same-model validation plus comparison, focused missing-fact retrieval; maximum three attempts. New post-hoc engineering protocol; no CL code or results.",
+      "request_interval_seconds": 1.5,
+      "paired_v2_baseline": false
+    },
+    "shared_source_modules_unchanged": {
+      "__init__.py": true,
+      "baseline.py": true,
+      "benchmarks.py": true,
+      "calculator.py": true,
+      "cli.py": true,
+      "client.py": true,
+      "compatibility.py": true,
+      "core.py": true,
+      "data.py": true,
+      "dense.py": true,
+      "experiment.py": true,
+      "faiss_worker.py": true,
+      "fb_contract.py": true,
+      "fb_retrieval.py": true,
+      "report.py": true
+    },
+    "generation_inputs_contain_no_reference_answers_or_validator_feedback": true
+  }
+}
